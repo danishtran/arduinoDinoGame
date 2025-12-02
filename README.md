@@ -17,6 +17,7 @@ A small, battery-powered handheld Dino game using:
 - Battery-powered with charging over USB-C
 
 ### Wiring Table
+```
 Battery (+) → TP4056 B+
 Battery (–) → TP4056 B–
 
@@ -25,8 +26,10 @@ TP4056 OUT– → MT3608 IN–
 
 MT3608 OUT+ → Nano 5V
 MT3608 OUT– → Nano GND
+```
 
 ### TFT ST7789 Wiring
+```
 TFT CS → Nano D10
 TFT DC → Nano D8
 TFT RST → Nano D9
@@ -35,10 +38,13 @@ TFT SCK → Nano D13
 TFT MOSI → Nano D11
 TFT VCC → Nano 5V
 TFT GND → Nano GND
+```
 
 ### Button Wiring
+```
 Jump Button → Nano D3 → GND
 Duck Button → Nano D2 → GND
+```
 
 Each button connects between the pin and **GND**.
 
